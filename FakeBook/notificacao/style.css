@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(24,25,26);
+    color: white;
+}
+
+div#container-menu{
+    background-color: rgb(37,38,39);
+    height: 50px;
+    position: relative;
+}
+
+div#retornar-inicio{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+div#sair-menu{
+    position: absolute;
+    top: 50%;
+    left:90%;
+    transform: translate(-50%, -50%);
+}
+
+div#retornar-inicio a{
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+}
+
+div#retornar-inicio a:hover{
+    color: rgb(91, 92, 93);
+    text-decoration: none;
+}
+
+div#sair-menu a{
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+}
+
+div#sair-menu a:hover{
+    color: rgb(91, 92, 93);
+    text-decoration: none;
+}
+
+.hrMenu{
+    border-width: 1px;
+    border-color: rgb(114, 111, 111);
+    border-style: solid;
+}
+
+div#containerTitulo{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
+
+div#containerTitulo h3{
+    align-items: center;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+div#containerNotificacao{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+   
+}
+
+div#NotificacaoInput{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+div#NotificacaoInputAceitar{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:5%;
+    transform: translate(-50%, -50%);
+}
+
+div#NotificacaoInputRecusar{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:15%;
+    transform: translate(-50%, -50%);
+}
+
+div#containerNotificacao label{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.InputVisitar{
+    display: inline-block;
+    border: 1px solid rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    height: 48px;
+    width: 598px;
+    padding-left: 500px;
+}
+
+.InputVisitar:hover{
+    border: 1px solid rgb(90, 91, 92);
+    background-color: rgb(90, 91, 92);
+}
+
+.InputAceitar{
+    display: inline-block;
+    border: 1px solid rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.InputAceitar:hover{
+    border: 1px solid rgb(74, 175, 74);
+    background-color: rgb(74, 175, 74);
+}
+
+.InputRecusar{
+    display: inline-block;
+    border: 1px solid rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.InputRecusar:hover{
+    border: 1px solid rgb(245, 63, 39);
+    background-color: rgb(245, 63, 39);
+}
+

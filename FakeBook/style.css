@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 25, 26);
+    background-image: url(images/twitter.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -1600% 50%;
+    background-size: 1300px 1300px;
+    color: white;
+    font-family: arial;
+}
+input{
+    display: block;
+    height: 35px;
+    width:300px;
+    margin: 20px auto 0px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+div#container-login{
+    background-color: rgb(36, 37, 38);
+    margin: 150px auto 0px auto;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+div#container-login h1{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+div#container-login h4{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+input#input-logar{
+    background-color: rgb(13, 135, 253);
+    color: white;
+}
+
+input#input-logar:hover{
+    background-color: rgb(106, 163, 250);
+}
+
+a:hover{
+    color: rgb(90, 135, 233);
+}
+
+a{
+    color: rgb(59, 114, 235);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(59, 114, 235);
+}

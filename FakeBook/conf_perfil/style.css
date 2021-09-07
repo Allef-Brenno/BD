@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(24,25,26);
+    color: white;
+}
+
+div#container-menu{
+    background-color: rgb(37,38,39);
+    height: 50px;
+    position: relative;
+}
+
+div#retornar-inicio{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+div#sair-menu{
+    position: absolute;
+    top: 50%;
+    left:90%;
+    transform: translate(-50%, -50%);
+}
+
+div#retornar-inicio a{
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+}
+
+div#retornar-inicio a:hover{
+    color: rgb(91, 92, 93);
+    text-decoration: none;
+}
+
+div#sair-menu a{
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+}
+
+div#sair-menu a:hover{
+    color: rgb(91, 92, 93);
+    text-decoration: none;
+}
+
+.hrMenu{
+    border-width: 1px;
+    border-color: rgb(114, 111, 111);
+    border-style: solid;
+}
+
+div#containerTitulo{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
+
+div#containerTitulo h3{
+    align-items: center;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+div#containerPrivacidade{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
+
+div#containerPrivacidade h4{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%, -50%);
+}
+
+div#containerPrivacidade input{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:65%;
+    transform: translate(-50%, -50%);
+}
+
+.InputPrivacidade{
+    display: inline-block;
+    border: 1px solid rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.InputPrivacidade:hover{
+    border: 1px solid rgb(90, 91, 92);
+    background-color: rgb(90, 91, 92);
+}
+
+div#containerBiografia{
+    position: relative;
+    width: 600px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+    align-items: center;
+}
+
+div#containerBiografia p{
+    display: inline-block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 400px;
+    height: 100px
+}
+
+div#BiografiaInput1{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+div#BiografiaInput2{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:80%;
+    transform: translate(-50%, -50%);
+}
+
+.biografiaTexto{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.InputTextoBiografia{
+
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid rgb(58, 59, 60);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+}
+
+.InputTextoBiografia::placeholder{
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.InputBiografia{
+    display: inline-block;
+    border: 1px solid rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.InputBiografia:hover{
+    border: 1px solid rgb(90, 91, 92);
+    background-color: rgb(90, 91, 92);
+}
+
+div#containerAlterarFoto{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
+
+.InputTextoUrl{
+    display: inline-block;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid rgb(58, 59, 60);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+}
+
+.InputTextoUrl::placeholder{
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.InputUrl{
+    display: inline-block;
+    border: 1px solid rgb(58, 59, 60);
+    background-color: rgb(58, 59, 60);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.InputUrl:hover{
+    border: 1px solid rgb(90, 91, 92);
+    background-color: rgb(90, 91, 92);
+}
+
+div#UrlInput1{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+div#UrlInput2{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left:80%;
+    transform: translate(-50%, -50%);
+}
+
+div#containerAlterarBiografia{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    border-left: 1px solid rgb(114, 111, 111);
+    border-right: 1px solid rgb(114, 111, 111);
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
